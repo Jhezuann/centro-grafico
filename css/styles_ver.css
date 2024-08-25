@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+    header {
+        background-color: #333;
+        color: #fff;
+        padding: 10px 0;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+    .logo {
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .nav-links {
+        list-style: none;
+        display: flex;
+    }
+
+    .nav-links li {
+        margin-left: 20px;
+    }
+
+    .nav-links a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 16px;
+    }
+
+    .nav-links a:hover {
+        text-decoration: underline;
+    }
+
+.hero {
+    background: url('../img/vinil.jpg') no-repeat center center/cover;
+    color: #fff;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin: 0 0 20px;
+}
+
+.hero p {
+    font-size: 24px;
+    margin: 0;
+}
+
+main {
+    max-width: 1200px;
+    margin: 20px 0;
+    padding: 0 20px;
+    flex: 1;
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 140%;
+    border-collapse: collapse;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    flex-shrink: 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+.form {
+    margin-left: 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+.form label {
+    margin: 10px 0 5px;
+}
+
+.form input[type="text"],
+.form input[type="number"],
+.form textarea,
+.form select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+.form input[type="submit"] {
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form input[type="submit"]:hover {
+    background-color: #000a15;
+}
+/* Estilos para los enlaces de acciones */
+.accion-link {
+    text-decoration: none; /* Quitar subrayado predeterminado */
+    padding: 5px 10px; /* Espacio alrededor del texto */
+    background-color: #3498db; /* Color de fondo */
+    color: #fff; /* Color del texto */
+    border-radius: 3px; /* Bordes redondeados */
+    margin-right: 10px; /* Margen derecho entre enlaces */
+}
+
+.accion-link:hover {
+    background-color: #2980b9; /* Cambio de color al pasar el ratón */
+}
+
+/* Estilo para los enlaces de opciones */
+td.options {
+    font-size: 12px; /* Tamaño de fuente más pequeño */
+}
+
+/* Reducir el espacio entre elementos dentro de la celda */
+td.options a {
+    margin-right: 5px; /* Ajustar el margen derecho entre enlaces */
+}
+.small-th {
+    font-size: 14px; /* Reducir el tamaño del texto */
+    padding: 8px; /* Ajustar el padding según sea necesario */
+}
